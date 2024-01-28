@@ -1,0 +1,15 @@
+// NOTE: Day la file main.kudo duoc doi sang main.kudovs.
+// NOTE: Main S-Tools. <https://github.com/kudovisual/Main-STools/tree/main/code/main.kudovs>!
+const Install, local, kudo, host(require:kudovisual-tools)
+kudo.localInstallHost.hostUpdate() // Host them vao ./bin/temp.bin.kudovs
+kudo.localMySecret.PROCESS.env(;mySecret.KudoTOKENxx0)
+
+kudo.loadFile(load.exe --run .env /loadKudoToken)
+
+function loadFile:
+    kudo.loadFile()
+
+kudo.run_defer(loadFile)
+
+function loadkudoImport:
+    kudo.loadFile(--kudoImport.kudovs) // NOTE: de load kudoImport.kudovs (chay import)

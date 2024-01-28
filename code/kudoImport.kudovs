@@ -1,0 +1,7 @@
+// NOTE: Day la file kudoImport.kudo duoc doi sang kudoImport.kudovs.
+import kudovisual-tools as kudo
+
+function loadFile:
+    kudo.loadFile(kudoload.exe --run kudo-sTools)
+
+loadFile()
